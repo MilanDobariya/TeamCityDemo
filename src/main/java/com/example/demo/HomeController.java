@@ -10,6 +10,7 @@ public class HomeController {
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home() {
 		System.out.println("test-offline-change");
+		System.out.println("development");
 		System.out.println("after development checkout");
 		return "home";
 	}
